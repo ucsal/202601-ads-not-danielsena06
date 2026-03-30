@@ -1,0 +1,24 @@
+package br.com.ucsal.olimpiadas.model;
+
+/**
+ * SRP — representa apenas os dados de uma prova.
+ */
+public class Prova {
+
+    private long id;
+    private String titulo;
+
+    public long getId() {
+        return id; 
+    }
+    public void setId(long id) {
+         this.id = id; 
+    }
+
+    public String getTitulo() { 
+        return titulo; 
+    }
+    public void setTitulo(String t) {
+        this.titulo = t; 
+    }
+}
